@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Red+Hat+Display&display=swap');
+.nav {
+    width: 100%;
+    background-color:white;
+    font-family: 'Red Hat Display', sans-serif;
+    position:fixed;
+    z-index: 1;
+}
+
+.nav-options {
+    display: flex;
+    margin-right: 20px;
+}

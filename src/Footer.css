@@ -1,0 +1,13 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.learnmore-button{
+    padding-right: 0;
+
+}
+
+.learnmore-button > img {
+    height:200px;
+}

@@ -1,0 +1,32 @@
+.learnmore-button {
+    height:150px;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    background-color: white;
+    border-radius: 100px;
+    margin-right: 20px;
+    margin-bottom:20px;
+  }
+
+.learnmore-button >img {
+  height: 150px;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .learnmore-button > img{
+      animation: learnmore-button-spin infinite 20s linear;
+    }
+  }
+
+@keyframes learnmore-button-spin {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+
+}
+

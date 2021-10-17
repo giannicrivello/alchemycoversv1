@@ -1,0 +1,22 @@
+
+.greeting {
+    height: 100vh;
+
+}
+
+.greeting-title {
+    font-size:100px;
+    padding-top: 100px;
+   
+
+}
+
+.greeting-title > p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.images {
+    display:flex;
+}
